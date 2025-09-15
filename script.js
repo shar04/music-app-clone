@@ -2,7 +2,7 @@ console.log("welcome to musify");
 
 // Initialize variables
 let songIndex = 0;
-let audioElement = new Audio('songs/prema_velluva.mp3');
+let audioElement = new Audio('songs/Prema_Velluva.mp3');
 let masterPlay = document.getElementById('masterplay');
 let myProgressBar = document.getElementById('myprogressbar');
 let gif = document.getElementById('gif');
@@ -11,7 +11,7 @@ let songItems = Array.from(document.getElementsByClassName('songitem'));
 
 // Songs array
 let songs = [
-    { songname: "prema velluva", filepath: "songs/prema_velluva.mp3", coverpath: "images/image.jpg" },
+    { songname: "prema velluva", filepath: "songs/Prema_Velluva.mp3", coverpath: "images/image.jpg" },
     { songname: "Lutt Putt Gaya", filepath: "songs/Lutt_Putt_Gaya.mp3", coverpath: "images/lutput.jpg" },
     { songname: "ocheliya", filepath: "songs/O_Cheliya.mp3", coverpath: "images/ocheliya.jpg" },
     { songname: "shaky", filepath: "songs/Shaky.mp3", coverpath: "images/shaky1.jpg" },
